@@ -39,6 +39,7 @@ if (localStorage.getItem('newbie') === null) {
     bm = 1.5;
     bc = 100;
     ac = 0;
+    document.getElementById("bost").innerHTML = "Купить улучшение (Цена: " + bc + "), Текущий множитель: " + bm;
     localStorage.setItem('newbie', '1');
 } else {
     ac = +localStorage.getItem('bal');
