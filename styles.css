@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(to bottom, #000000, #333333);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #111111;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.balance {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #222222;
+    border-radius: 10px;
+}
+
+.donkey-shop {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #222222;
+    border-radius: 10px;
+}
+
+.donkey-item {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #333333;
+}
+
+.donkey-item p {
+    margin: 5px 0;
+}
+
+.donkey-item button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+#donkey-normal { background-color: #cccccc; } /* Обычный осёл */
+#donkey-fast { background-color: #ffcc00; }   /* Быстрый осёл */
+#donkey-iron { background-color: #808080; }  /* Железный осёл */
+#donkey-silver { background-color: #c0c0c0; } /* Серебряный осёл */
+#donkey-gold { background-color: #ffd700; }   /* Золотой осёл */
+#donkey-diamond { background-color: #b0c4de; }/* Бриллиантовый осёл */
+#donkey-holy { background-color: #9966CC; }  /* Святой осёл */
+#donkey-divine { background-color: #ff0000; } /* Божественный осёл */

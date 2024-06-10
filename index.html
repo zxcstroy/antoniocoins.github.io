@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CryptoDonkeys</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CryptoDonkeys</h1>
+        <p>Общее количество ослов: <span id="total-donkey-count">0</span></p> </header>
+    <main>
+        <div class="balance">
+            <p>wDON: <span id="wdon-balance">0</span></p>
+            <p>Общий доход: <span id="total-income">0</span> wDON/мин</p>
+        </div>
+        <section class="donkey-shop">
+            <h2>Магазин ослов</h2>
+            <div class="donkey-item" id="donkey-normal">
+                <p>Обычный (<span id="donkey-normal-count">0</span>)</p>
+                <p>Цена: <span id="donkey-normal-price">500</span> wDON</p>
+                <p>Доход: <span id="donkey-normal-income">50</span> wDON/мин</p>
+                <button onclick="buyDonkey('normal')">Купить</button>
+            </div>
+            <div class="donkey-item" id="donkey-fast">
+                <p>Быстрый (<span id="donkey-fast-count">0</span>)</p>
+                <p>Цена: <span id="donkey-fast-price">1000</span> wDON</p>
+                <p>Доход: <span id="donkey-fast-income">100</span> wDON/мин</p>
+                <button onclick="buyDonkey('fast')">Купить</button>
+            </div>
+            <div class="donkey-item" id="donkey-iron">
+                <p>Железный (<span id="donkey-iron-count">0</span>)</p>
+                <p>Цена: <span id="donkey-iron-price">2000</span> wDON</p>
+                <p>Доход: <span id="donkey-iron-income">250</span> wDON/мин</p>
+                <button onclick="buyDonkey('iron')">Купить</button>
+            </div>
+            <div class="donkey-item" id="donkey-silver">
+                <p>Серебряный (<span id="donkey-silver-count">0</span>)</p>
+                <p>Цена: <span id="donkey-silver-price">5000</span> wDON</p>
+                <p>Доход: <span id="donkey-silver-income">500</span> wDON/мин</p>
+                <button onclick="buyDonkey('silver')">Купить</button>
+            </div>
+            <div class="donkey-item" id="donkey-gold">
+                <p>Золотой (<span id="donkey-gold-count">0</span>)</p>
+                <p>Цена: <span id="donkey-gold-price">10000</span> wDON</p>
+                <p>Доход: <span id="donkey-gold-income">1000</span> wDON/мин</p>
+                <button onclick="buyDonkey('gold')">Купить</button>
+            </div>
+            <div class="donkey-item" id="donkey-diamond">
+                <p>Бриллиантовый (<span id="donkey-diamond-count">0</span>)</p>
+                <p>Цена: <span id="donkey-diamond-price">20000</span> wDON</p>
+                <p>Доход: <span id="donkey-diamond-income">3000</span> wDON/мин</p>
+                <button onclick="buyDonkey('diamond')">Купить</button>
+            </div>
+            <div class="donkey-item" id="donkey-holy">
+                <p>Святой (<span id="donkey-holy-count">0</span>)</p>
+                <p>Цена: <span id="donkey-holy-price">30000</span> wDON</p>
+                <p>Доход: <span id="donkey-holy-income">5000</span> wDON/мин</p>
+                <button onclick="buyDonkey('holy')">Купить</button>
+            </div>
+            <div class="donkey-item" id="donkey-divine">
+                <p>Божественный (<span id="donkey-divine-count">0</span>)</p>
+                <p>Цена: <span id="donkey-divine-price">50000</span> wDON</p>
+                <p>Доход: <span id="donkey-divine-income">10000</span> wDON/мин</p>
+                <button onclick="buyDonkey('divine')">Купить</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
